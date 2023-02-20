@@ -5,12 +5,12 @@
 n = int(input('Введите количество монет: '))
 num_zero = 0
 num_one = 0
-for i in range (n):
+for i in range(n):
     count = int(input('Введите если орел - 1, решка - 0: '))
     if count == 0:
         num_zero += 1
     else:
-        num_one +=1
+        num_one += 1
 if num_zero < num_one:
     print(f"Перевернуть следующее количество монет с решкой: {num_zero}")
 else:
